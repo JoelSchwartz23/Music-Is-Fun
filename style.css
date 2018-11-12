@@ -7,9 +7,8 @@
 }
 
 .searchbar{
-  position: absolute;
-  left: 50px;
   justify-content: center;
+  height: 20vh;
 }
 
 .searchbutton {
@@ -22,7 +21,7 @@
 }
 
 .Albums{
-
+  justify-content: center;
   align-content: flex-start;
   flex-direction: column;
   color: orange;
@@ -42,7 +41,7 @@
 audio{
   color: blue;
   float: right;
-  width:25vh;
+  width: 30vh;
   height:6vh;
 }
 
@@ -57,18 +56,21 @@ h6{
   text-align: right;
 }
 
-.musicheader{
+p{
   color: purple;
+  font-family: 'Archivo Narrow', sans-serif;
   font-family: 'Monoton', cursive;
-  font-family: 'Marck Script', cursive;
   font-size: 150px;
-  font-family: mark
 }
 
 
+.musicheader{
+ justify-content: center;
+}
+
 .headerposition{
-  position: absolute;
-  right: 120px;
-  justify-content: center;
+ position: absolute;
+ right: 10px;
+ top: 50px;
 }
 
